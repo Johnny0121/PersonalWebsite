@@ -1,0 +1,34 @@
+﻿@import '../../Variables.scss';
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+        margin-bottom: $spacing;
+    }
+
+    > *:not(:last-child) {
+        margin-right: $spacing * 2;
+
+        @media (max-width: 992px) {
+            margin-right: $spacing;
+        }
+    }
+
+    &--equal {
+        > * {
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+    }
+
+    &--responsive {
+        @media (max-width: 992px) {
+            > * {
+                display: block;
+                min-width: 100%;
+            }
+        }
+    }
+}

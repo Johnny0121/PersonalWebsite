@@ -1,0 +1,21 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.alert {
+    font-size: $font-size * 1.75;
+    margin-bottom: $spacing;
+
+    &-1 {
+        padding-left: $spacing;
+
+        &--primary {
+            color: $primary-colour;
+            border-left: $spacing / 2 solid $primary-colour;
+        }
+
+        &--secondary {
+            color: $secondary-colour;
+            border-left: $spacing / 2 solid $secondary-colour;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "UI/Variables.css",
+    "inputFile": "UI/Variables.scss"
+  },
+  {
+    "outputFile": "UI/Mixins.css",
+    "inputFile": "UI/Mixins.scss"
+  },
+  {
+    "outputFile": "UI/Components/Container/Container.css",
+    "inputFile": "UI/Components/Container/Container.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/Site.css",
+    "inputFile": "UI/Site.scss"
+  },
+  {
+    "outputFile": "UI/Components/Flex/Flex.css",
+    "inputFile": "UI/Components/Flex/Flex.scss"
+  },
+  {
+    "outputFile": "UI/Components/Button/Button.css",
+    "inputFile": "UI/Components/Button/Button.scss"
+  },
+  {
+    "outputFile": "UI/Components/Alert/Alert.css",
+    "inputFile": "UI/Components/Alert/Alert.scss"
+  },
+  {
+    "outputFile": "UI/Components/Card/Card.css",
+    "inputFile": "UI/Components/Card/Card.scss"
+  }
+]

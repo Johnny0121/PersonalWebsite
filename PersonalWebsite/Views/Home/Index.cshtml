@@ -2,7 +2,69 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div>
-    <p class="display-4" style="font-weight: 700;">Hi, I'm currently migrating this site to ASP.NET, please try again at a later time.</p>
-    <p style="font-weight: 700;">Migrating...</p>
+<partial name="Sections/_Header" />
+
+<div class="container container--p-3 container--primary">
+    <div class="container">
+        <div class="alert alert-1 alert-1--primary">What I do</div>
+        <p>I have been programming for over 5 years and have over a year of full-stack web development experience working for companies. Currently, I'm studying for my final year towards my bachelor's degree. Hopefully, I have the experience and rights skills for you to consider me working at your company!</p>
+        <br />
+        <p>Below is a quick overview of my main technical skills and the technologies I have used. You can also check out a list additional skills on my Linkedin. If you feel like I'd be a good fit, please check out my resume or email me to know more!</p>
+    </div>
+
+    <div class="flex flex--equal flex--responsive container container--p-v-3">
+        <div class="card">
+            <div class="card__header">
+                <h1 class="card__heading">Programming Languages</h1>
+            </div>
+            <div class="card__content">
+                <p>Java, C#, PHP, JavaScript (jQuery/HTML/CSS/SASS), SQL, Lisp</p>
+            </div>
+
+            <div class="card__header">
+                <h1 class="card__heading">Additional Technologies</h1>
+            </div>
+            <div class="card__content">
+                <p>Azure Services, Adobe XD, Azure DevOps, Git & TFVC, Bootstrap, MySQL</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__header">
+                <h1 class="card__heading">Laravel (PHP)</h1>
+            </div>
+            <div class="card__content">
+                <p>I have over half a year of experience of Laravel developing websites for 2 different clients during my summer fellowship at Beautiful Canoe (Birmingham).</p>
+                <br />
+                <p>I have also used Laravel for within Internet Applications & Technologies Module's project and gained a 1st.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__header">
+                <h1 class="card__heading">ASP.NET (C#)</h1>
+            </div>
+            <div class="card__content">
+                <p>I have over a year of experience using both ASP.NET MVC and Core 3.0+, mostly during my placement year at Pinewood Technologies PLC (Birmingham) developing/maintaining websites, building APIs and working on an independent team project for the company. I have over 2.5 years of experience using C# (during both A-Levels, personal project and placements).</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__header">
+                <h1 class="card__heading">Technologies with some experience (and still learning)</h1>
+            </div>
+            <div class="card__content">
+                <p>Docker, Vuejs, LibGDX, ReactJS, Angular, MongoDB, NodeJS (+ ExpressJS).</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <p>Sorry if there's not much on my personal website. I'm hoping to fill this out with a bunch of experiences and skills throughout the future!</p>
+        <br />
+        <p>You can find a link to my HTML, styles and XD mockups for this personal page <a href="#">here</a>. In the mean time, here's a cool low-resolution photo for you to stare at.</p>
+        <br />
+
+        @*<img style="overflow-x: hidden;" src="~/resource/media/images/photos/wm_jug_happy.jpg" />*@
+    </div>
 </div>

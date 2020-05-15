@@ -1,0 +1,46 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.button {
+    @include animateConfig;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: $border-radius;
+
+    &--1 {
+        font-size: $font-size;
+        padding: $spacing / 2 $spacing;
+    }
+
+    &--2 {
+        font-size: $font-size;
+        padding: $spacing * .75 $spacing * 2;
+    }
+
+    &--3 {
+        font-size: $font-size;
+        padding: $spacing $spacing * 2.5;
+    }
+
+    &--primary {
+        background-color: $primary-colour;
+        color: $tertiary-colour;
+
+        &:hover {
+            background-color: darken($primary-colour, 10%);
+        }
+    }
+
+    &--secondary {
+        background-color: $secondary-colour;
+        color: $tertiary-colour;
+
+        &:hover {
+            background-color: darken($secondary-colour, 10%);
+        }
+    }
+
+    &__icon {
+        padding-right: $spacing / 4;
+    }
+}

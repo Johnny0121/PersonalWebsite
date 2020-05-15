@@ -1,0 +1,1 @@
+﻿.flex{display:flex;flex-wrap:wrap;}.flex>*{margin-bottom:16px;}.flex>*:not(:last-child){margin-right:32px;}@media(max-width:992px){.flex>*:not(:last-child){margin-right:16px;}}.flex--equal>*{flex-grow:1;flex-basis:0;}@media(max-width:992px){.flex--responsive>*{display:block;min-width:100%;}}

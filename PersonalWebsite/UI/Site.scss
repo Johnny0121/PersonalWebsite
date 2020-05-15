@@ -1,0 +1,21 @@
+﻿// Resets
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+@import 'Variables.scss';
+@import 'Mixins.scss';
+@import 'Components/Container/Container.scss';
+@import 'Components/Flex/Flex.scss';
+@import 'Components/Button/Button.scss';
+@import 'Components/Alert/Alert.scss';
+@import 'Components/Card/Card.scss';

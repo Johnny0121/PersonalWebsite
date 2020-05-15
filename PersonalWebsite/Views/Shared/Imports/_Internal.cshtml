@@ -1,2 +1,7 @@
-﻿<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="~/css/site.css" />
+﻿<environment include="Development">
+    <link href="~/css/Site.css" rel="stylesheet" />
+</environment>
+
+<environment exclude="Development">
+    <link href="~/css/Site.min.css" rel="stylesheet" />
+</environment>

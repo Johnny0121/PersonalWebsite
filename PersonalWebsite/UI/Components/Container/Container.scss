@@ -1,0 +1,27 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.container {
+    @include paddingConfig;
+    @include backgroundColourConfig;
+    @include colourConfig;
+
+    &__header {
+        color: $primary-colour;
+        padding-bottom: $spacing;
+        font-weight: bold;
+    }
+
+    &__heading {
+        font-size: $font-size * 3;
+    }
+
+    &__subheading {
+        font-size: $font-size * 1.5;
+    }
+
+    &__content {
+        color: $primary-colour;
+        font-size: $font-size * 1.25;
+    }
+}
