@@ -13,7 +13,9 @@
     &__header {
         line-height: 150%;
 
-        border-bottom: $spacing / 4 solid darken($primary-colour, 10%);
+        @media (min-width: 1320px) {
+            border-bottom: $spacing / 4 solid darken($primary-colour, 10%);
+        }
     }
 
     &__heading {

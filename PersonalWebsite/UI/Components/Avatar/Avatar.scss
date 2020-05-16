@@ -8,6 +8,8 @@
     border-radius: 100px;
     background-position: center;
     background-size: cover;
+    box-shadow: $box-shadow;
+    border: 2px solid $tertiary-colour;
 
     > img {
         display: none;

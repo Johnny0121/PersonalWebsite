@@ -21,9 +21,9 @@
     cursor: pointer;
     padding: 4px 0; }
     .list__link--disabled {
-      cursor: default; }
+      color: #cccccc; }
       .list__link--disabled:hover {
-        text-decoration: none; }
+        text-decoration: none !important; }
     .list__link:hover {
       text-decoration: underline; }
     .list__link > a {

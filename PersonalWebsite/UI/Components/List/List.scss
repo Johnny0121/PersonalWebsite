@@ -18,10 +18,10 @@
         padding: $spacing / 4 0;
 
         &--disabled {
-            cursor: default;
+            color: darken($tertiary-colour, 20%);
 
             &:hover {
-                text-decoration: none;
+                text-decoration: none !important;
             }
         }
 
