@@ -1,4 +1,6 @@
-﻿// Resets
+﻿@import 'Variables.scss';
+
+/*Resets*/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,32 @@ ul {
     list-style-position: inside;
 }
 
+/*Core sections specific styles*/
+.footer {
+    border-top: 1px solid $primary-colour;
+}
+
+/*Gridding*/
+body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.navbar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+
+.main {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.footer {
+    grid-column: 2 / 3;
+    grid-row: 2 / auto;
+}
+
 @import 'Variables.scss';
 @import 'Mixins.scss';
 @import 'Components/Container/Container.scss';
@@ -19,3 +47,8 @@ ul {
 @import 'Components/Button/Button.scss';
 @import 'Components/Alert/Alert.scss';
 @import 'Components/Card/Card.scss';
+@import 'Components/List/List.scss';
+@import 'Components/Navbar/Navbar.scss';
+@import 'Components/Avatar/Avatar.scss';
+@import 'Components/Icon/Icon.scss';
+@import 'Components/Timeline/Timeline.scss';

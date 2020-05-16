@@ -1,0 +1,23 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.navbar {
+    color: $tertiary-colour;
+    padding: $spacing;
+    text-align: center;
+
+    &--primary {
+        background-color: $primary-colour;
+    }
+
+    &__header {
+        line-height: 150%;
+
+        border-bottom: $spacing / 4 solid darken($primary-colour, 10%);
+    }
+
+    &__heading {
+        font-size: $font-size * 1.5;
+        font-weight: bold;
+    }
+}

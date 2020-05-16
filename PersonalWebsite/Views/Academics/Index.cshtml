@@ -1,0 +1,55 @@
+﻿@model PersonalWebsite.Models.Academics.IndexViewModel
+
+@{
+    ViewData["Title"] = "Academics";
+}
+
+<partial name="Sections/_Header" model="Model.Buttons" />
+
+<div class="container container--p-3 container--primary">
+    <div class="container">
+        <div class="alert alert-1 alert-1--primary">@ViewData["Title"]</div>
+        <div class="timeline">
+            <div class="timeline__item">
+                <h1 class="timeline__timestamp">SEP 2017 - PRESENT</h1>
+                <h2 class="timeline__title"><span class="timeline__title--bold">Computer Science BSc,</span> Aston University - Excellence Scholarship</h2>
+                <div class="timeline__content">
+                    <ul>
+                        <li>Year 1 (1st) - including modules in Internet Computing, Database and Information Systems, Java Programming Foundations et al.</li>
+                        <li>Year 2 (1st) -  including modules in Internet Applications and Techniques, Data Structures and Algorithms, Group Project et al.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline__item">
+                <h1 class="timeline__timestamp">SEP 2017 – AUG 2019</h1>
+                <h2 class="timeline__title"><span class="timeline__title--bold">Chinese Mandarin - Beginners and Intermediate,</span> Aston University - LFA Scholarship</h2>
+                <div class="timeline__content">
+                    <ul>
+                        <li>Year 1 (1st) - Beginners</li>
+                        <li>Year 2 (1st) - Intermediate</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline__item">
+                <h1 class="timeline__timestamp">SEP 2015 – AUG 2017</h1>
+                <h2 class="timeline__title"><span class="timeline__title--bold">A Levels,</span> Matthew Boulton College</h2>
+                <div class="timeline__content">
+                    <ul>
+                        <li>A - Computing</li>
+                        <li>A - Biology</li>
+                        <li>B - Mathematics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="alert alert-1 alert-1--primary">Interests & Hobbies</h1>
+        <ul>
+            <li>Bouldering and Mountaineering</li>
+            <li>Aston Computer Science Society</li>
+            <li>Eastern Languages</li>
+            <li>Badminton</li>
+            <li>Instant Noodles Connoisseur (4 yrs experience)</li>
+        </ul>
+    </div>
+</div>

@@ -3,9 +3,12 @@
 
 .button {
     @include animateConfig;
+    display: inline-block;
+    cursor: pointer;
     font-weight: bold;
     text-decoration: none;
     border-radius: $border-radius;
+    box-shadow: $box-shadow;
 
     &--1 {
         font-size: $font-size;
@@ -28,6 +31,15 @@
 
         &:hover {
             background-color: darken($primary-colour, 10%);
+        }
+    }
+
+    &--primary-dark {
+        background-color: $primary-colour--dark;
+        color: $tertiary-colour;
+
+        &:hover {
+            background-color: darken($primary-colour--dark, 10%);
         }
     }
 

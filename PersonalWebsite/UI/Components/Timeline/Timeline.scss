@@ -1,0 +1,28 @@
+﻿@import '../../Variables.scss';
+
+.timeline {
+    border-left: 3px dotted $muted-colour;
+    padding-left: $spacing;
+
+    &__item {
+        margin-bottom: $spacing * 2;
+    }
+
+    &__timestamp {
+        text-transform: uppercase;
+        color: $muted-colour;
+        font-size: $font-size;
+    }
+
+    &__title {
+        font-weight: 300;
+
+        &--bold {
+            font-weight: 500;
+        }
+    }
+
+    &__content {
+        padding-top: $spacing / 4;
+    }
+}

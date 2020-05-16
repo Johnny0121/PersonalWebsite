@@ -4,20 +4,24 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Johnny Le</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/resource/media/images/icons/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/resource/media/images/icons/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/resource/media/images/icons/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/resource/media/images/icons/favicons/site.webmanifest">
     <partial name="Imports/_Internal" />
     <partial name="Imports/_ThirdParty" />
 </head>
 <body>
     <partial name="Sections/_Navigation" />
 
-    <main role="main">
+    <main role="main" class="main">
         @RenderBody()
     </main>
 
     <partial name="Sections/_Footer" />
 
-    <partial name="Imports/_InternalScripts" />
     <partial name="Imports/_ThirdPartyScripts" />
+    <partial name="Imports/_InternalScripts" />
     @RenderSection("Scripts", required: false)
 </body>
 </html>

@@ -4,6 +4,26 @@
     display: flex;
     flex-wrap: wrap;
 
+    &--m {
+        &-1 {
+            > *:not(:last-child) {
+                margin-right: $spacing / 2 !important;
+            }
+        }
+
+        &-2 {
+            > *:not(:last-child) {
+                margin-right: $spacing * .75 !important;
+            }
+        }
+
+        &-3 {
+            > *:not(:last-child) {
+                margin-right: $spacing !important;
+            }
+        }
+    }
+
     > * {
         margin-bottom: $spacing;
     }
@@ -21,6 +41,14 @@
             flex-grow: 1;
             flex-basis: 0;
         }
+    }
+
+    &--justify-center {
+        justify-content: center;
+    }
+
+    &--align-center {
+        align-content: center;
     }
 
     &--responsive {

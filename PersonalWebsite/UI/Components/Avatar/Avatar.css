@@ -1,0 +1,15 @@
+﻿/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*Borders and shadows*/
+/*Animations*/
+.avatar {
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  margin: 16px auto;
+  border-radius: 100px;
+  background-position: center;
+  background-size: cover; }
+  .avatar > img {
+    display: none; }

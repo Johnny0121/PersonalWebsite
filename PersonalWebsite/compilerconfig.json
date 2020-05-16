@@ -30,5 +30,13 @@
   {
     "outputFile": "UI/Components/Card/Card.css",
     "inputFile": "UI/Components/Card/Card.scss"
+  },
+  {
+    "outputFile": "UI/Components/List/List.css",
+    "inputFile": "UI/Components/List/List.scss"
+  },
+  {
+    "outputFile": "UI/Components/Avatar/Avatar.css",
+    "inputFile": "UI/Components/Avatar/Avatar.scss"
   }
 ]

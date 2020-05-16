@@ -1,0 +1,17 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.icon {
+    color: white;
+    font-size: $font-size * 2;
+
+    &--disabled {
+        color: darken($tertiary-colour, 50%);
+        cursor: default;
+    }
+
+    &--inline {
+        display: inline;
+        padding-right: $spacing / 4;
+    }
+}

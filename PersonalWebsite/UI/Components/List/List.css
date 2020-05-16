@@ -1,0 +1,31 @@
+﻿/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*Borders and shadows*/
+/*Animations*/
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*Borders and shadows*/
+/*Animations*/
+.list {
+  list-style-type: none; }
+  .list__heading {
+    color: #4B5375;
+    cursor: default;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 16px; }
+  .list__link {
+    color: #595959;
+    cursor: pointer;
+    padding: 4px 0; }
+    .list__link--disabled {
+      cursor: default; }
+      .list__link--disabled:hover {
+        text-decoration: none; }
+    .list__link:hover {
+      text-decoration: underline; }
+    .list__link > a {
+      text-decoration: inherit;
+      color: inherit; }

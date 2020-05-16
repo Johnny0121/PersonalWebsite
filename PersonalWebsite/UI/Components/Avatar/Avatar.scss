@@ -1,0 +1,15 @@
+﻿@import '../../Variables.scss';
+
+.avatar {
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    margin: $spacing auto;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+
+    > img {
+        display: none;
+    }
+}

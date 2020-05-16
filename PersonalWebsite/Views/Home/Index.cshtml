@@ -1,8 +1,10 @@
-﻿@{
+﻿@model PersonalWebsite.Models.Home.IndexViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<partial name="Sections/_Header" />
+<partial name="Sections/_Header" model="Model.Buttons"/>
 
 <div class="container container--p-3 container--primary">
     <div class="container">

@@ -1,0 +1,44 @@
+﻿@model PersonalWebsite.Models.WorkExperience.IndexViewModel
+
+@{
+    ViewData["Title"] = "WorkExperience";
+}
+
+<partial name="Sections/_Header" model="Model.Buttons" />
+
+<div class="container container--p-3 container--primary">
+    <div class="container">
+        <div class="alert alert-1 alert-1--primary">@ViewData["Title"]</div>
+        <div class="timeline">
+            <div class="timeline__item">
+                <h1 class="timeline__timestamp">SEP 2019 - SEP 2020</h1>
+                <h2 class="timeline__title"><span class="timeline__title--bold">Placement Web Developer</span> Pinewood Technologies PLC</h2>
+                <div class="timeline__content">
+                    <p>Technologies: C#, ASP.NET Framework & Core (MVC/API), JS, JQuery, KnockoutJS, SQL (Server), TFS, Docker, Azure Services & DevOps</p>
+                    <br>
+                    <p>Industrial Placement year in Web development, gaining technical experience in developing/maintaining web APIs, microservices and UX design, working with ASP.NET.</p>
+                    <p>Managed sites for Car Store, Stratstone, EvansHalshaw and other Pendragon PLC web applications.</p>
+                    <br>
+                    <ul>
+                        <li>Projects: Enrolment portal, DevOps Dashboard</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline__item">
+                <h1 class="timeline__timestamp">JUN 2019 – SEP 2019</h1>
+                <h2 class="timeline__title"><span class="timeline__title--bold">Web Developer,</span> Beautiful Canoe</h2>
+                <div class="timeline__content">
+                    <p>Technologies: Laravel, Git (Lab), JS, Bootstrap, Vagrant, R, SQL</p>
+                    <br>
+                    <p>Summer contractual position developing and maintaining websites for two clients, gaining technical experience, improving team and communicational skills.</p>
+                    <br>
+                    <p>Projects:</p>
+                    <ul>
+                        <li>FLDB - Text Crimes</li>
+                        <li>Aston Contractor and Tradesperson Sign-In System</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

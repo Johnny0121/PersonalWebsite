@@ -1,4 +1,4 @@
-﻿// Colours
+﻿/*Colours*/
 $primary-colour: #4B5375;
 $primary-colour--light: #5F657C;
 $primary-colour--dark: #383E57;
@@ -9,17 +9,18 @@ $muted-colour: #595959;
 $muted-colour--light: #EEEEEE;
 $grey-colour: #595959;
 
-// Fonts
+/*Fonts*/
 $font-size: 16px;
 $font-size--base: $font-size * 1.25;
 $font-size--double: $font-size * 2;
 
-// Spacing
+/*Spacing*/
 $spacing: 16px;
 $spacing--base: $spacing * 3;
 
-// Borders
+/*Borders and shadows*/
 $border-radius: 4px;
+$box-shadow: 2px 3px 13px -4px rgba(0,0,0,0.35);
 
-// Animations
+/*Animations*/
 $transition-duration: 0.2s;

@@ -1,0 +1,37 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.list {
+    list-style-type: none;
+
+    &__heading {
+        color: $primary-colour;
+        cursor: default;
+        font-weight: bold;
+        font-size: $font-size * 1.25;
+        padding-bottom: $spacing;
+    }
+
+    &__link {
+        color: $grey-colour;
+        cursor: pointer;
+        padding: $spacing / 4 0;
+
+        &--disabled {
+            cursor: default;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        > a {
+            text-decoration: inherit;
+            color: inherit;
+        }
+    }
+}
