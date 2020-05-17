@@ -13,18 +13,32 @@
 
         @if (Model != null && Model.Count > 0)
         {
-            <div class="flex container container--p-v-2">
-                @foreach (var button in Model)
-                {
-                    <a class="@button.Class" href="@button.URL">
-                        @if (!string.IsNullOrWhiteSpace(button.IconClass))
-                        {
-                            <i class="@button.IconClass"></i>
-                        }
-                        <span>@button.Name</span>
-                    </a>
-                }
-            </div>
+    <div class="flex container container--p-v-2">
+        @foreach (var button in Model)
+        {
+            @if (!string.IsNullOrWhiteSpace(button.TooltipText))
+            {
+                <a class="@button.Class tooltip" href="@button.URL">
+                    @if (!string.IsNullOrWhiteSpace(button.IconClass))
+                    {
+                        <i class="@button.IconClass"></i>
+                    }
+                    <span>@button.Name</span>
+                    <span class="tooltip__content">@button.TooltipText</span>
+                </a>
+            }
+            else
+            {
+                <a class="@button.Class" href="@button.URL">
+                    @if (!string.IsNullOrWhiteSpace(button.IconClass))
+                    {
+                        <i class="@button.IconClass"></i>
+                    }
+                    <span>@button.Name</span>
+                </a>
+            }
+        }
+    </div>
         }
 
     </div>

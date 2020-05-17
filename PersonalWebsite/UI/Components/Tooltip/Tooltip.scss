@@ -1,0 +1,27 @@
+﻿@import '../../Variables.scss';
+@import '../../Mixins.scss';
+
+.tooltip {
+
+    &:hover {
+
+        .tooltip__content {
+            opacity: 1;
+        }
+    }
+
+    &__content {
+        @include animateConfig;
+
+        opacity: 0;
+        border: 2px solid $primary-colour;
+        z-index: 1;
+        position: absolute;
+        background-color: $tertiary-colour;
+        padding: $spacing;
+        color: $primary-colour;
+        margin-left: $spacing;
+        box-shadow: $box-shadow;
+        border-radius: $border-radius;
+    }
+}

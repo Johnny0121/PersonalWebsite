@@ -224,6 +224,9 @@ body {
   .button--3 {
     font-size: 16px;
     padding: 16px 40px; }
+  .button--disabled {
+    cursor: not-allowed;
+    color: #cccccc !important; }
   .button--primary {
     background-color: #4B5375;
     color: #FFFFFF; }
@@ -427,3 +430,29 @@ body {
       font-weight: 500; }
   .timeline__content {
     padding-top: 4px; }
+
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*Borders and shadows*/
+/*Animations*/
+/*Colours*/
+/*Fonts*/
+/*Spacing*/
+/*Borders and shadows*/
+/*Animations*/
+.tooltip:hover .tooltip__content {
+  opacity: 1; }
+
+.tooltip__content {
+  transition-duration: 0.2s;
+  opacity: 0;
+  border: 2px solid #4B5375;
+  z-index: 1;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 16px;
+  color: #4B5375;
+  margin-left: 16px;
+  box-shadow: 2px 3px 13px -4px rgba(0, 0, 0, 0.35);
+  border-radius: 4px; }

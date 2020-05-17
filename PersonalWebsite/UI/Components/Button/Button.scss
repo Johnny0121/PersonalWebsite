@@ -25,6 +25,11 @@
         padding: $spacing $spacing * 2.5;
     }
 
+    &--disabled {
+        cursor: not-allowed;
+        color: darken($tertiary-colour, 20%) !important;
+    }
+
     &--primary {
         background-color: $primary-colour;
         color: $tertiary-colour;

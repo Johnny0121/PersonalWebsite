@@ -40,8 +40,11 @@ namespace PersonalWebsite.Controllers
                     new ButtonViewModel
                     {
                         Name = "Download Resume",
-                        Class = "button button--secondary button--2",
-                        URL = "https://drive.google.com/uc?id=15AJ0na3ue7QVX0CXb4f1mhgLzgHXuxEH&export=download",
+                        Class = "button button--secondary button--2 button--disabled",
+                        //URL = "https://drive.google.com/uc?id=15AJ0na3ue7QVX0CXb4f1mhgLzgHXuxEH&export=download",
+                        URL = "#",
+                        TooltipText = "Sorry, this resume is currently locked at the moment.",
+                        Disabled = true
                     },
                 }
             };

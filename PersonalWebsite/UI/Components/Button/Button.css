@@ -25,6 +25,9 @@
   .button--3 {
     font-size: 16px;
     padding: 16px 40px; }
+  .button--disabled {
+    cursor: not-allowed;
+    color: #cccccc !important; }
   .button--primary {
     background-color: #4B5375;
     color: #FFFFFF; }
