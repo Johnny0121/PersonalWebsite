@@ -15,5 +15,6 @@ namespace PersonalWebsite.Models
         public DbSet<WorkExperienceEntity> WorkExperiences { get; set; }
         public DbSet<AcademicExperienceEntity> AcademicExperiences { get; set; }
         public DbSet<ProjectEntity> Projects { get; set; }
+        public DbSet<SocialMediaEntity> SocialMedias { get; set; }
     }
 }
